@@ -1,0 +1,50 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+    font-weight: 400;
+    font-size: 1rem;
+    font-family: 'Roboto'
+}
+
+@media (max-width: 768px) {
+
+    html{
+        font-size: 87.5%;
+    }
+    #wrapper{
+        grid-template-columns: 1fr;
+    }
+}
+
+#CONTENT p{
+    margin-top: 1rem;
+}
+
+#hash a{
+    font-weight: bold;
+}
+
+#hash a + a {
+    margin-left: 12px;
+  
+}
+
+#hash a:hover{
+    color: #00B37E;
+}
+
+:focus{
+    outline: transparent;
+    box-shadow: 0 0 0 2px #00875f;
+}
+
+#FEEDBACK_FORM:focus-within footer{
+    visibility: visible;
+    max-height: none;
+}
+
+#COMMENT footer svg{
+    margin-right: 0.5rem;
+}
