@@ -21,7 +21,8 @@ interface PostProps {
 
 export interface Content {
     type: "paragraph" | "link";
-    content: string
+    content: string;
+    href: string
 }
 
 
@@ -109,7 +110,7 @@ export function Post({ author , publishedAt, content} : PostProps){
                         return <p key={line.content}> {line.content}</p>
                     }else{
                         return <p key={line.content}>
-                            <a className="font-bold text-green-500 hover:text-green-300 flex items-center gap-1" href="https://www.instagram.com/richarlison/"><InstagramLogo/> - {line.content}</a>
+                            <a className="font-bold text-green-500 hover:text-green-300 flex items-center gap-1" target="_blank" href={line.href}><InstagramLogo/> - {line.content}</a>
                         </p>
                     }
                 })}

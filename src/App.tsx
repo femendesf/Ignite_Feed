@@ -1,4 +1,3 @@
-import id from 'date-fns/esm/locale/id/index.js';
 import { Header } from './components/Header';
 import { Post, Content } from './components/Post';
 import { Sidebar } from './components/Sidebar';
@@ -17,7 +16,7 @@ const posts = [
     content: [
       { type: "paragraph", content: "Salve galera"},
       { type: "paragraph", content: "⚽ Preparados para mais um gol do pombo? Só jogar nos peito do pai que é voleio na certa."},
-      { type: "link", content: "@richarlison"},
+      { type: "link", content: "@richarlison", href: "https://www.instagram.com/richarlison/"},
     ],
     publishedAt: new Date('2022-12-02 14:30:40')
   },
@@ -32,7 +31,7 @@ const posts = [
     content: [
       {type: "paragraph", content: "Eai meus queridussss!"},
       {type: "paragraph", content: "Caneta azul, azul caneta"},
-      {type: "link", content: "@manoelgomesbr"}
+      {type: "link", content: "@manoelgomesbr", href:"https://www.instagram.com/manoelgomesbr/"}
     ],
     publishedAt: new Date('2022-12-06 14:53:26')
   },
@@ -51,7 +50,6 @@ export function App() {
         <main>
           {posts.map(({id, author, publishedAt, content}) => {
             
-            console.log(content)
             return (
               <Post
                 key={id}
