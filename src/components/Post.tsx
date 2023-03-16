@@ -14,7 +14,6 @@ interface PostProps {
     };
     
     publishedAt: Date;
-    
     content: Content[];
     
 }
@@ -24,8 +23,6 @@ export interface Content {
     content: string;
     href: string
 }
-
-
 
 export function Post({ author , publishedAt, content} : PostProps){
     
