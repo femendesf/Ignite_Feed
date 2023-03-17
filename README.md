@@ -7,7 +7,7 @@
 ---
 
 ### Curso da Rocketseat. 🚀
-Projeto criado para o desafio do Ignite da Rocketseat.
+Projeto criado para o usuario ver o feed e poder interagir, criando comentários e excluindo os ja existentes.
 
 ---
 
