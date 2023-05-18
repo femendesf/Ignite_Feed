@@ -6,7 +6,7 @@
 
 ---
 
-### Curso da Rocketseat. 🚀
+### Desafio Ignite Rocketseat. 🚀
 Projeto criado para o usuario ver o feed e poder interagir, criando comentários e excluindo os ja existentes.
 
 ---
