@@ -11,7 +11,7 @@ Projeto criado para o usuario ver o feed e poder interagir, criando comentários
 
 ---
 
-## Biblioteca e Framework:
+ ## Tools 🔧:
 
 * [React](https://pt-br.reactjs.org/)
 * [TypeScript](https://www.typescriptlang.org/)
